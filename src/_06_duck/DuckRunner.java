@@ -1,6 +1,11 @@
-package _06_duck;
+ package _06_duck;
 
 public class DuckRunner {
-Duck duck = new Duck("Duck Food", 81);
+
+public static void main(String[] args) {
+	Duck duck = new Duck("Duck Food", 81);
+	duck.quack();
+	duck.waddle();
+}
 //add constructor etc
 }

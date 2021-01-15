@@ -5,7 +5,7 @@ public class Duck {
 	static String favoriteFood;
 
 public static void main(String[] args) {
-	
+	Duck duck = new Duck("Duck Food", 81);
 	
 }
 Duck(String favoriteFood, int numberOfFriends) {
